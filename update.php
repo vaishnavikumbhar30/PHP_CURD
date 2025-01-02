@@ -29,7 +29,7 @@ if (isset($_POST['hiddendata'])){
     $category=$_POST['updateCategory'];
 
 
- $sql="update `crud` set name='$name', price='$name', category='$category' where id=$uniqueid";
+ $sql="update `crud` set name='$name', price='$price', category='$category' where id=$uniqueid";
 
  $result=mysqli_query($con, $sql);
 

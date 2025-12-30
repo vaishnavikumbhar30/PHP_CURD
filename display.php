@@ -2,7 +2,6 @@
 
 include 'connect.php';
 
-
 // this is for display data in table format 
 
 if(isset($_POST['displaySend'])){
@@ -55,6 +54,7 @@ echo $table;
 
 
 ?>
+
 
 
 
